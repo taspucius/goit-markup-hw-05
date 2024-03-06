@@ -1024,3 +1024,47 @@ body:not(.portfolio-page) .nav-portfolio::after {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.is-hidden {
+  visibility: hidden;
+}
+.modal {
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 3px 0px #0000001f;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  background-color: #2e2f4266;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.modal-content {
+  padding: 16px;
+  background-color: #fff;
+  width: 525px;
+  height: 677px;
+  position: relative;
+}
+.close-btn {
+  width: 24px;
+  height: 24px;
+  background-color: #e7e9fc;
+  border: 1px solid #0000001a;
+  border-radius: 50%;
+  color: #2e2f42;
+  outline: none;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  z-index: 3;
+}
+.close-btn svg {
+  width: 8px;
+  height: 8px;
+  top: 8px;
+  left: 8px;
+}

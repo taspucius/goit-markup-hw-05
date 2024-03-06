@@ -66,9 +66,16 @@
               for Your Business
             </h1>
             <div class="button">
-              <button type="button" class="order-service">Order Service</button>
+              <button type="button" class="order-service" data-modal-open>Order Service</button>
             </div>
           </section>
+        </div>
+        <div class="modal is-hidden" data-modal>
+          <div class="modal-content">
+            <button class="close-btn" data-modal-close>
+              <svg><use href="./close-btn/symbol-defs.svg#icon-close-black"></use></svg>
+            </button>
+          </div>
         </div>
       </section>
 
@@ -524,5 +531,6 @@
         </section>
       </section>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
