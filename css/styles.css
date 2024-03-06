@@ -136,6 +136,11 @@ h3 {
 header.top-line a:focus {
   color: rgb(0, 0, 255);
 }
+.top-line a {
+  transition-property: color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 a {
   text-decoration: none;
@@ -164,6 +169,9 @@ a {
 }
 
 .order-service {
+  transition-property: background-color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -181,6 +189,9 @@ a {
   justify-content: center;
   width: 169px;
   height: 56px;
+}
+.order-service:hover {
+  background-color: rgb(0, 0, 255);
 }
 
 .hero-title {
@@ -420,6 +431,12 @@ ul {
   color: rgb(0, 0, 255);
   cursor: pointer;
 }
+.section3 h3,
+.section3 p {
+  transition-property: color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /*FOOTER*/
 
@@ -454,7 +471,11 @@ ul {
 .footer a:hover {
   color: rgb(0, 0, 255);
 }
-
+.footer a {
+  transition-property: color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .web-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -553,7 +574,11 @@ ul {
   background-color: #404bbf;
   color: WHITE;
 }
-
+.all-butoon {
+  transition-property: background-color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .btn1-position {
   margin-left: 69px;
 }
@@ -757,6 +782,11 @@ li {
 .icon-list .icon:focus {
   background-color: #000ea8;
 }
+.icon-list {
+  transition-property: background-color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer {
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -837,7 +867,11 @@ li {
 .customers .customers-logo:active {
   border: 1px solid #10a5f5;
 }
-
+.customers .customers-logo {
+  transition-property: color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .customers-logo svg {
   color: #8e8f99;
   width: 104px;
@@ -846,6 +880,11 @@ li {
 
 .customers-logo svg:hover {
   color: #10a5f5;
+}
+.customers-logo svg {
+  transition-property: color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-footer {
   display: flex;
@@ -880,4 +919,34 @@ li {
 }
 .marketing:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.project-card2 {
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.all-butoon {
+  transition-property: box-shadow, background-color;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.web-site {
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.design {
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.marketing {
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.app {
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
